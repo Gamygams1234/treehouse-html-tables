@@ -10,37 +10,39 @@
   </head>
   <body>
     <table>
-      <!-- this indicates an entire row -->
-      <tr>
-        <!-- we put the <th> on all the cells of the header -->
-        <!-- we also put the scope in what is giong to be associatied with  -->
-        <th scope="column">Name</th>
-        <th scope="column">email</th>
-        <th scope="column">Job Role</th>
-      </tr>
+      <!-- the <thead> is at the top of the table to indicate the columns -->
+      <!-- helps with search engines -->
+      <thead>
+        <tr>
+          <th scope="column">Name</th>
+          <th scope="column">email</th>
+          <th scope="column">Job Role</th>
+        </tr>
+      </thead>
+      <!-- we use the tbody for the rest of the body -->
+      <tbody>
+        <tr>
+          <th scope="row">Gamaliel Burgos</th>
+          <td>gamyburgos@gmail.com</td>
+          <td>Front End Developer</td>
+        </tr>
 
-      <tr>
-        <!--  we can also put it on the begining of the row to indicate the name -->
-        <!-- and we associated the row at the beginning  -->
-        <th scope="row">Gamaliel Burgos</th>
-        <td>gamyburgos@gmail.com</td>
-        <td>Front End Developer</td>
-      </tr>
-      <tr>
-        <th scope="row">John Cena</th>
-        <td>johncena@gmail.com</td>
-        <td>Wrestler</td>
-      </tr>
-      <tr>
-        <th scope="row">Lisa Patel</th>
-        <td>wasabilp@gmail.com</td>
-        <td>Artist</td>
-      </tr>
-      <tr>
-        <th scope="row">Hugo Rosales</th>
-        <td>hugorosales@gmail.com</td>
-        <td>Accountant</td>
-      </tr>
+        <tr>
+          <th scope="row">John Cena</th>
+          <td>johncena@gmail.com</td>
+          <td>Wrestler</td>
+        </tr>
+        <tr>
+          <th scope="row">Lisa Patel</th>
+          <td>wasabilp@gmail.com</td>
+          <td>Artist</td>
+        </tr>
+        <tr>
+          <th scope="row">Hugo Rosales</th>
+          <td>hugorosales@gmail.com</td>
+          <td>Accountant</td>
+        </tr>
+      </tbody>
     </table>
   </body>
 </html>
