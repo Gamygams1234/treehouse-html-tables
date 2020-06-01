@@ -12,28 +12,32 @@
     <table>
       <!-- this indicates an entire row -->
       <tr>
-        <td>Name</td>
-        <td>email</td>
-        <td>Job Role</td>
+        <!-- we put the <th> on all the cells of the header -->
+        <!-- we also put the scope in what is giong to be associatied with  -->
+        <th scope="column">Name</th>
+        <th scope="column">email</th>
+        <th scope="column">Job Role</th>
       </tr>
-      <!-- the rest of these will all fall in line -->
+
       <tr>
-        <td>Gamaliel Burgos</td>
+        <!--  we can also put it on the begining of the row to indicate the name -->
+        <!-- and we associated the row at the beginning  -->
+        <th scope="row">Gamaliel Burgos</th>
         <td>gamyburgos@gmail.com</td>
         <td>Front End Developer</td>
       </tr>
       <tr>
-        <td>John Cena</td>
+        <th scope="row">John Cena</th>
         <td>johncena@gmail.com</td>
         <td>Wrestler</td>
       </tr>
       <tr>
-        <td>Lisa Patel</td>
+        <th scope="row">Lisa Patel</th>
         <td>wasabilp@gmail.com</td>
         <td>Artist</td>
       </tr>
       <tr>
-        <td>Hugo Rosales</td>
+        <th scope="row">Hugo Rosales</th>
         <td>hugorosales@gmail.com</td>
         <td>Accountant</td>
       </tr>
